@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+	height: 100vh;
+	background-image: url(images/background.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.open {
+	transform: rotate(90deg);
+	transform: translateY(0px);
+}
+
+ .open.top {
+	transform: rotate(45deg) translateY(7.9px) translate(6px);
+
+}
+
+ .open.middle {
+	display: none;
+}
+.open.bottom {
+	transform: rotate(135deg) translateY(7.9px) translate(-6px);
+}
+.width {
+	width: 100%;
+	transition: 0.5s;
+}
+.no-width {
+
+	width: 0%;
+}
+#prev, #next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  /*margin-top: -22px;*/
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+#next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+#prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+#prev:hover, #next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.show  {
+	display: flex;
+}
+.hide {
+	display: none;
+}
+@media only screen and (max-width: 820px) {
+	.body {
+		background-image: url(images/backgroundcopy2.jpeg);
+	}
+}
+
+.fixed {
+	position: fixed;
+}
+.fadeLeft {
+	animation: fadeLeft 2s;
+}
+
+.nav,.content {
+	animation: transitionIn 2s;
+}
+.fade {
+	transition: 2s;
+} 
+#prev, #next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  /*margin-top: -22px;*/
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+#next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+#prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		
+	}
+
+	to {
+		opacity: 1;
+		
+	}
+}
+

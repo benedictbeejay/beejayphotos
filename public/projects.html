@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Projects</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image" href="images/icon.png">
+	<script defer type="text/javascript" src="script.js"></script>
+</head>
+<body class="content relative bg-slate-100">
+
+	<nav class="nav w-screen p-4 flex -z-10">
+		<div class="w-full  relative ">
+
+			<div class="space-x-4 absolute right-16 hidden md:flex">
+				<a href="index.html" class="">
+					<button class="text-black focus:text-white h-8 hover:text-white text-sm  font-mono active:bg-black focus:bg-black hover:bg-black rounded-xl space-y-2 w-24 ease-in duration-300 outline-none">Home</button>
+				</a>
+				<a href="about.html" class="">
+					<button class="text-black focus:text-white h-8 hover:text-white text-sm active:bg-black focus:bg-blackactive:bg-black focus:bg-black font-mono hover:bg-black rounded-xl space-y-2 w-24 ease-in duration-300 outline-none">About Us</button>
+					</</a>
+				<a href="projects.html" class="">
+					<button class="text-black focus:text-white h-8 hover:text-white text-sm active:bg-black focus:bg-black  font-mono hover:bg-black rounded-xl space-y-2 w-24 ease-in duration-300 outline-none">Projects</button>
+				</a>
+				<a href="contact.html" class="">
+					<button class="text-black focus:text-white h-8 hover:text-white text-sm active:bg-black focus:bg-black font-mono hover:bg-black rounded-xl space-y-2 w-24 ease-in duration-300 outline-none">Contact Us</button>
+				</a>
+			</div>
+			<button id="hamburger" class="block z-30 md:hidden focus:outline-none absolute right-0 ease-in duration-300 w-8 h-6  p-1">
+				<span id="menu1" class="absolute  top w-8 h-1 bg-black top-0 left-0 ease-in duration-300"></span>
+				<span id="menu2" class="absolute middle w-8 h-1 bg-black top-2.5 left-0 ease-in duration-300"></span>
+				<span id="menu3" class="absolute bottom w-8 h-1 bg-black bottom-0 left-0 ease-in duration-300"></span>
+			</button>
+		</div>
+		
+	</nav><br>
+
+	<div id="overlay" class="hidden absolute h-full z-20 top-0 font-mono ease-in duration-300 ">
+		<div id="over" class=" flex h-full w-full absolute top-0 overflow-x-hidden  bg-black bg-opacity-90 block space-y-8 flex p-12 flex-col items-center self-end">
+			<a href="index.html" class="hover:text-white text-gray-400 text-xl font-mono ease-in duration-300 focus:text-gray-500">Home</a>
+			<a href="about.html" class="hover:text-white focus:text-white text-gray-400 text-xl font-mono ease-in duration-300 focus:text-gray-500">About Us</a>
+			<a href="projects.html" class="hover:text-white focus:text-white text-gray-400 text-xl font-mono ease-in duration-300 focus:text-gray-500">Projects</a>
+			<a href="contact.html" class="hover:text-white focus:text-white text-gray-400 text-xl font-mono ease-in duration-300 focus:text-gray-500">Contact Us</a>
+		</div>	
+	</div>
+	
+	
+
+	<div class="w-screen h-full sm:mt-8 p-8 -z-10">
+
+	<p class="m-4 text-md md:text-lg font-sans">
+		Here is a collection of our best works on various forms of photographic shots set out for you to pick your best interest in. They include photos of natural photography, product photography, portriat photography and many more.
+	</p>
+
+	<div class="flex flex-wrap">
+	
+		<div class="md:w-1/4 sm:w-1/2 pr-4 pl-4">
+
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220820_093508_467-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20221026_121419_251 (1)-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/AirBrush_20220425002351-01-02.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/Lamie11 (2)-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20210710_154620_463-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20210726_192429_129-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20221110_090924_520-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()"src="images/portfolio/Lamie14 (1)-02.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20221110_091221_162-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/Lamie5-01.jpeg">
+
+		</div>
+
+		<div  class="md:w-1/4 sm:w-1/2 pr-2 pl-2">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" onclick="openLightbox()" src="images/portfolio/IMG_20210906_105743_412-01.jpeg">	
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20210923_132851_370-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20210923_132935_220-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20211008_140741_812 (1)-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220121_142834_143-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220108_105431_846-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220713_135733_122.jpg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220720_092619_346-01.jpeg">
+			
+		</div>
+			
+		<div class="md:w-1/4 sm:w-1/2 pr-2 pl-2">
+			
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220210_180403_396-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220310_102642_438-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220408_084317_624-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220408_084506_664-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220411_151909_357-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220912_092324_511 (1)-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220912_092350_030 (1)-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20221003_160233_007-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220912_092303_731-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20210309_145751_170 (2)-01.jpeg">
+
+		</div>
+			
+		<div class="md:w-1/4  sm:w-1/2 pr-2 pl-2">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220414_170214_988-01.jpeg">	
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220514_075955_165-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220529_172911_755-02.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220529_173113_118-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220605_090552_803-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220612_171423_121-01-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20221102_092506_088-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20221102_121030_034-02.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20220204_084830_089 (1)-01.jpeg">
+			<img class="mt-4 w-0 fluid fade" onload="fade()" onclick="openLightbox()" src="images/portfolio/IMG_20221119_150247_315-01.jpeg">
+		</div>
+	
+	</div>
+		
+	</div>
+
+	<div class="hidden lightbox fixed top-0 left-0 right-0 bg-black bg-opacity-90 z-20 bottom-0 left-0 right-0 absolute top-0">
+
+		<button id="closebox" class="outline-none border-none text-5xl  text-white absolute top-8 right-8"> &times; </button>
+		<div class="imgContainer fixed left-1/2 top-1/2 w-3/4 min-h-min -translate-y-1/2 -translate-x-1/2 md:max-w-md max-w-xs ma">
+			<img class="block" id="overs"  src="" >
+			
+			<a id="prev" onclick="prevImage()">&#10094;</a>
+  			<a id="next" onclick="nextImage()">&#10095;</a>
+		</div>
+		
+	</div>
+	
+
+</body>
+</html>
